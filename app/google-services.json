@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499424623322",
+    "project_id": "ecorewards-1a7eb",
+    "storage_bucket": "ecorewards-1a7eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499424623322:android:4d3c0df8dca0d1a25c03e3",
+        "android_client_info": {
+          "package_name": "com.example.ecohelper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk0w9VCF_4M_t-l2JK3aK82jZJrz9kWsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

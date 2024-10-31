@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="etiquetas_array">
+        <item>Latas</item>
+        <item>Botellas de vidrio</item>
+        <item>Botellas de plástico</item>
+        <item>Bolsa de papeles</item>
+        <item>Cartón</item>
+    </string-array>
+</resources>

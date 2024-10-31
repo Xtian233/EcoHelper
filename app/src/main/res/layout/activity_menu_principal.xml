@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MenuPrincipal">
+
+    <TextView
+        android:id="@+id/txvMenuPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="9dp"
+        android:text="MENÚ PRINCIPAL"
+        android:textColor="#020202"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imvRecepcionista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvBienvenido"
+        android:layout_width="222dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="22dp"
+        android:text="Bienvenido de vuelta! EcoColaborador"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imvEscanear"
+        app:layout_constraintEnd_toStartOf="@+id/imvRecepcionista"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txvMenuPrincipal" />
+
+    <ImageButton
+        android:id="@+id/imvEscanear"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="30dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Botón para escanear código QR"
+        app:layout_constraintBottom_toTopOf="@+id/imvSubir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/qr" />
+
+    <ImageView
+        android:id="@+id/imvRecepcionista"
+        android:layout_width="106dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/imvEscanear"
+        app:layout_constraintStart_toEndOf="@+id/txvBienvenido"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recepcionista" />
+
+    <Button
+        android:id="@+id/btnRegresar2"
+        android:layout_width="187dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="24dp"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imvSubir"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/imvAnadir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/subir_img" />
+
+    <ImageButton
+        android:id="@+id/imvAnadir"
+        android:layout_width="280dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegresar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/puntos" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
